@@ -1,2 +1,4 @@
-# CursoNextScR
-Curso relâmpago sobre rotas dinâmicas e server component no NextJs
+# Curso poket NextJs
+## Rotas, Rotas Dinâmicas e Server Component
+
+
