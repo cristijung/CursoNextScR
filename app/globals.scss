@@ -1,10 +1,18 @@
 :root {  
   font-family: 'Roboto', sans-serif;
+
   --fundo-body: #000;
+  --fundo-nav: #032f58;
+  --fundo-header: #064681;
   --text-principal: #fff;
   --text-secudario: #e3e2e2;
-  --text-link: #074c03;
+  --text-link: #3a8cc3;
   --text-titulo: #fff;
   --text-stitulo: #fff;
   --content: #fff;
+}
+
+body {
+  max-width: 100%;
+  margin:auto;
 }

@@ -3,8 +3,10 @@ import styles from './header.module.scss';
 export default function Header() {
     return(
         <>
-        <section className={styles.algo}></section>
+        <section>
+            <nav className={styles.navBar}>nav</nav>
+            <header className={styles.header}>...</header>
+        </section>
         </>
-
     );
 }
