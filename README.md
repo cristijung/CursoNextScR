@@ -7,7 +7,7 @@
 
 ## Comandos de instalação e setup
 - Instalando Next: `npx create-next-app my-nextjs-app --typescript`;
-- Scss: `npm install -g sass`;
+- Scss: `npm install sass @types/sass --save`;
 - MUI: `npm install @mui/material @emotion/react @emotion/style`;
 
 
