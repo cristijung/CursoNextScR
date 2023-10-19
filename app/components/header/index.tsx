@@ -4,7 +4,7 @@ export default function Header() {
     return(
         <>
         <section>
-            <nav className={styles.navBar}>nav</nav>
+            <nav className={styles.navBar}>NextJs</nav>
             <header className={styles.header}>...</header>
         </section>
         </>
