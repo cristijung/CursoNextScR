@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './header.module.scss';
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
             <nav className={styles.navBar}  style={{display: 'flex'}}>
                 <div className={styles.titulo}>NextJs</div>
             <div className={styles.menu}>
-                Home | Arquitetura | Rotas
+                <Link href='/rotas'>Home </Link>| Arquitetura | Rotas
             </div>
             </nav>
             <header className={styles.header}>Trabalhando com Server Component</header>
