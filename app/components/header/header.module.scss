@@ -21,11 +21,19 @@
 
 .titulo {
     flex: 1;
+       
 }
 
-.menu {
+
+.menu a {
     font-size: 0.5em;
     margin-left: 5px;
     margin-top: 11px;
     margin-right: 20px;
+    color: var(--text-link);
+    text-decoration: none;;
+}
+
+.menu a:hover {
+    color:var(--text-link-hover);
 }
