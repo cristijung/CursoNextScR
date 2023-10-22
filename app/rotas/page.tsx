@@ -5,6 +5,9 @@ export default function Rotas() {
         <>
         <section className="altura">
         <h2>Rotas</h2>
+        <div className='conteudo'>
+            Teste
+        </div>
         </section>
         </>
     )

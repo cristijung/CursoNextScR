@@ -14,6 +14,9 @@
   --text-titulo: #fff;
   --text-stitulo: #fff;
   --content: #fff;
+  --scroll-normal:#073b76;
+  --scroll-hover: #1c78d5; 
+  --scroll-track: #649ef4;
 }
 
 body {
@@ -34,3 +37,30 @@ body {
 .altura {
   height: 60.2vh;
 }
+
+.conteudo {
+  max-width: 95%;
+  margin: auto;
+  height: 300px;
+  overflow:auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-normal) 
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scroll-hover); 
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scroll-track); 
+  
+}
+
+
