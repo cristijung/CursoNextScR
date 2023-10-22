@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Rotas() {
+export default function Novidades() {
     return(
         <>
         <section className="altura">
-        <h2>Rotas</h2>
+        <h2>Novidades</h2>
         </section>
         </>
     )
