@@ -5,8 +5,13 @@ export default function Home() {
   return (
   <>
   <section className="altura">
-  
-    <h2>Welcome</h2>
+    <main className='conteudo'>
+       <h2>Welcome ao NextJs Vs 13</h2>
+       <div>
+        Texto
+       </div>
+    </main>
+   
   </section> 
   </>
   )
