@@ -44,21 +44,25 @@ export default async function Server() {
     <>
       <section className={styles.altura}>
       <h2>Server Component</h2>
-      <hr />      
-        <div>
+      <hr />
+      <article>      
+        <div className={styles.cardcontainer}>
           {countries.map((country) => (
-            <div key={country.name.common}>
-              <h3>{country.name.common}</h3>              
-              <div>
+            <div key={country.name.common} className={styles.card}>                        
+              <div className={styles.flag}>
               <Image
                 src={country.flags.svg}
                 alt={country.flags.alt}
-                fill                
-              />
-              </div>              
+                width={300}
+                height={150}               
+              />                
+              </div> 
+              
+              <h3>{country.translations.por.common}</h3>              
             </div>
           ))}
-        </div>      
+        </div>
+        </article>      
     </section>
     </>
   );
