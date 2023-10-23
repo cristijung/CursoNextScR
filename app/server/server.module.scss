@@ -6,8 +6,8 @@
   }
 
   .card {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: var(--fundo-card);
+    border: 1px solid var(--borda-card);
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -20,5 +20,14 @@
   .flag {
     position: relative;
     border-radius: 4px;    
+  }
+
+  .menu {
+    color: var(--text-link-card);
+    text-decoration: none;    
+  }
+  
+  .menu :hover {
+    color: var(--text-link-card);
   }
 
