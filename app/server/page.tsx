@@ -43,7 +43,13 @@ export default async function Server() {
     <>
       <section className={styles.altura}>
         <h2>Server Component</h2>
-        <hr />
+        <div className={styles.texto}>Trabalhando com consumo de API e com cache resolvida do lado do servidor
+        <ul>
+          <li>API: <Link href="https://restcountries.com/" className={styles.menu}>https://restcountries.com/</Link></li>
+          <li>Utlização de rota dinâmica</li>
+        </ul>
+        </div>
+        
         <div className={styles.cardcontainer}>
           {countries.map((country) => (
             <Link key={country.name.common} href={`/server/${country.name.common}`} className={styles.menu}>
