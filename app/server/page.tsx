@@ -53,10 +53,11 @@ export default async function Server() {
               <Image
                 src={country.flags.svg}
                 alt={country.flags.alt}
-                fill              
-              />                
-              </div> 
-              
+                width={300}
+                height={150}               
+              />   
+
+              </div>               
               <h3>{country.translations.por.common}</h3>              
             </div>
           ))}
