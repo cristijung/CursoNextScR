@@ -1,0 +1,10 @@
+[
+    {
+        "text-welcome":"Next.js é um framework de código aberto para desenvolvimento de aplicativos web baseados em React. Ele é construído sobre o React e oferece uma série de recursos e funcionalidades que facilitam a criação de aplicativos web modernos e escaláveis. Aqui estão algumas características-chave do Next.js:",
+        "text-itens":"Renderização Universal: O Next.js oferece suporte à renderização tanto no lado do servidor (SSR) quanto no lado do cliente. Isso significa que você pode renderizar páginas no servidor para melhorar o SEO, a performance inicial e a experiência do usuário.",
+        "text-itens-dois": "Roteamento Automático: O Next.js possui um sistema de roteamento simples, onde as rotas são baseadas na estrutura de diretórios. Isso facilita a criação de páginas e a organização de código.",
+        "text-itens-tres": "Carregamento de Página Sob Demanda: O Next.js permite carregar páginas de forma assíncrona, o que ajuda a reduzir o tempo de carregamento inicial. Isso é conhecido como Code Splitting"
+        
+       
+    }
+]
