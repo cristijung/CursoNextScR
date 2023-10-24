@@ -26,7 +26,13 @@ export default async function CountryPage({
                 <h3>🏙️ Capital: {country.capital}</h3>
                 <h3>🗺️ Continente: {country.region} -  {country.subregion} </h3>
                 <h3>👨‍👩‍👧‍👦 População: {country.population} </h3>
-                <h3>🗣️ Idiomas: {Object.values(country.languages)} </h3>
+              {country.languages && (
+                <h3>🗣️ Idiomas: 
+                  {Object.values(country.languages).map((language) => (
+                    <span key={language}>{language}</span>
+                  ))}
+                </h3>
+              )}
             </section>
           </main>
           <p style={{ width: '75%', margin: 'auto', marginTop: '10px' }}>
