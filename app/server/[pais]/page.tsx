@@ -26,9 +26,10 @@ export default async function CountryPage({
           <div className={styles.titulo}>{country.translations.por.common}</div>
           <main className={styles.box}>
             <section>
-              <h3>🏙️ Capital: {country.capital}</h3>
+              {country.capital && <h3>🏙️ Capital: {country.capital}</h3>}
               <h3>
-                🗺️ Continente: {country.region} - {country.subregion}{" "}
+                🗺️ Continente: {country.region}{" "}
+                {country.region && `- ${country.subregion}`}
               </h3>
               <h3>👨‍👩‍👧‍👦 População: {formato.format(country.population)} </h3>
               {country.languages && (
