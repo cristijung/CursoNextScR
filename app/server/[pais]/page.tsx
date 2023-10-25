@@ -17,9 +17,9 @@ export default async function CountryPage({
   const country = await getCountryByName(pais);
   return (
     <>
-      <div className="conteudo">
+      <div className="altura">
         <h2>Informações do País:</h2>
-        <section>
+        <section className="conteudo">
           <div className={styles.titulo}>{country.translations.por.common}</div>
           <main className={styles.box}>
             <section>

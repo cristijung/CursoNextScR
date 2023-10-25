@@ -40,9 +40,9 @@ export default async function Server() {
   const countries = await getCountries();
 
   return (
-    <>
-      <section className={styles.altura}>
-        <h2>Server Component</h2>
+    <>    
+      <section className={styles.texto}>
+        <h2 style={{paddingLeft: '2%'}}>Server Component</h2>
         <div className={styles.texto}>Trabalhando com consumo de API e com cache resolvida do lado do servidor
         <ul>
           <li>API: <Link href="https://restcountries.com/" className={styles.menu}>https://restcountries.com/</Link></li>
@@ -68,6 +68,7 @@ export default async function Server() {
           ))}
         </div>
       </section>
+      
     </>
   );
 }
