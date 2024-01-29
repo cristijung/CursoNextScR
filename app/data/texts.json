@@ -1,0 +1,12 @@
+{
+    "tituloNovidade": "O que são Server Components?",
+    "textoNovidade": "Server Components são componentes do React que são renderizados exclusivamente no lado do servidor. Eles permitem que você aproveite a lógica e os recursos do servidor sem enviar esse código para o cliente. Isso difere dos componentes tradicionais do React, que são enviados e executados no navegador do cliente (Client-Side).",
+    "stituloNovidade":"Funções e Vantagens dos Server Components:",
+    "stextoDesempenhoNovidade":"Desempenho Otimizado: Ao realizar a lógica de renderização no servidor, os Server Components podem reduzir a quantidade de código JavaScript que precisa ser baixado, parseado e executado no lado do cliente. Isso pode levar a um carregamento mais rápido da página e a uma melhor experiência do usuário.",
+    "stextoServidorNovidade": "Acesso Direto ao Servidor: Os Server Components podem acessar diretamente recursos do servidor, como bancos de dados ou APIs internas, sem a necessidade de APIs adicionais ou endpoints expostos ao cliente. Isso simplifica a arquitetura e pode melhorar a segurança.",
+    "stextoCargaNovidade": "Menor Carga no Cliente: Ao mover a lógica de renderização e o processamento de dados para o servidor, os Server Components reduzem a carga de processamento no dispositivo do usuário, o que é especialmente benéfico para dispositivos com menos recursos.",
+    "stextoSeoNovidade": "Melhor SEO: Como o conteúdo é renderizado no servidor, ele é totalmente visível para os motores de busca, o que pode melhorar a indexação do conteúdo e o SEO.",
+    "stextoSeparadoNovidade": "Separação de Concerns: Permite uma clara separação entre a lógica executada no servidor e no cliente, ajudando a organizar melhor o código e a manter uma arquitetura limpa."
+    
+  
+  }
