@@ -6,7 +6,14 @@
     "stextoServidorNovidade": "Acesso Direto ao Servidor: Os Server Components podem acessar diretamente recursos do servidor, como bancos de dados ou APIs internas, sem a necessidade de APIs adicionais ou endpoints expostos ao cliente. Isso simplifica a arquitetura e pode melhorar a segurança.",
     "stextoCargaNovidade": "Menor Carga no Cliente: Ao mover a lógica de renderização e o processamento de dados para o servidor, os Server Components reduzem a carga de processamento no dispositivo do usuário, o que é especialmente benéfico para dispositivos com menos recursos.",
     "stextoSeoNovidade": "Melhor SEO: Como o conteúdo é renderizado no servidor, ele é totalmente visível para os motores de busca, o que pode melhorar a indexação do conteúdo e o SEO.",
-    "stextoSeparadoNovidade": "Separação de Concerns: Permite uma clara separação entre a lógica executada no servidor e no cliente, ajudando a organizar melhor o código e a manter uma arquitetura limpa."
-    
+    "stextoSeparadoNovidade": "Separação de Concerns: Permite uma clara separação entre a lógica executada no servidor e no cliente, ajudando a organizar melhor o código e a manter uma arquitetura limpa.",
+    "tituloRotas": "Next.js versão 13 & 14",
+    "stituloRotas": "No Next.js 13, o sistema de rotas segue o padrão estabelecido nas versões anteriores, com algumas melhorias e novas funcionalidades. As rotas são baseadas no sistema de arquivos na pasta pages. Cada arquivo JSX/TSX dentro dessa pasta se torna uma rota na aplicação. Por exemplo:",
+    "itenUmRotas": "pages/index.jsx corresponde à rota /",
+    "itenDoisRotas": "pages/about.jsx corresponde à rota /about",
+    "itenTresRotas": "pages/posts/[id].jsx corresponde a uma rota dinâmica, como /posts/1",
+    "subTextoRotas": "App Directory:",
+    "itenCincoRotas": ""
+
   
   }

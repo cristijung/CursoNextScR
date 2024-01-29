@@ -20,7 +20,7 @@ export default function Novidades() {
             <li>{texts.stextoServidorNovidade}</li>
             <li>{texts.stextoCargaNovidade}</li>
           </ul>
-          <h4>Referência</h4>
+          <h4>Referência de Imagem</h4>
           <p>            
             <Image
               src={imgTela}
